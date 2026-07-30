@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Confirmed — Lugha</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDF3E5;
+    color: #2b2b2b;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+  }
+  .check {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #E0763C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+  }
+  .check svg {
+    width: 36px;
+    height: 36px;
+  }
+  h1 {
+    color: #D85F2A;
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a;
+    margin: 0 0 28px;
+  }
+  .btn {
+    display: inline-block;
+    background: #D85F2A;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 999px;
+  }
+  .hint {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 13l4 4L19 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1>Email confirmed!</h1>
+    <p>Your Lugha account is ready. Head back to the app and sign in to start learning.</p>
+    <a class="btn" href="rork-app://auth">Open Lugha</a>
+    <p class="hint">If the button doesn't open the app, just switch back to it manually.</p>
+  </div>
+</body>
+</html>
